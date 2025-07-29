@@ -9,4 +9,9 @@ const router = Router();
  */
 router.post('/', logAnalyticsEvent);
 
+router.get('/hello', (req, res) => {
+    res.send('Hello Analytics World');
+});
+
+
 export default router;
