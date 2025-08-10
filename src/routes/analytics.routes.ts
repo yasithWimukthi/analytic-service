@@ -10,7 +10,7 @@ const router = Router();
 router.post('/', logAnalyticsEvent);
 
 router.get('/hello', (req, res) => {
-    res.send('Hello Analytics World - After Deployment!');
+    res.send('Hello Analytics World - After Deployment! - 1');
 });
 
 
